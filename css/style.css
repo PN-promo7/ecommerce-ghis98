@@ -1,0 +1,420 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Amiri', serif;
+font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: auto;
+  margin-top: 15px;
+}
+
+.promos {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.port {
+  margin-left: 30%;
+  margin-bottom: 2%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logofrance {
+  width: 1%;
+}
+
+a:hover {
+  color: #1DACE3;
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+
+.mood {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1280px;
+}
+
+.shop_habit p {
+  color: black;
+}
+
+footer p {
+  color: white;
+}
+
+/* NAVIGATION  */
+.menu_burger {
+  display: none;
+}
+
+.research {
+  display: none;
+}
+
+.main-nav {
+  background-color: white;
+  padding: 0px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 3px solid #000000;
+}
+
+.main-nav .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav .logo {
+  height: 30px;
+}
+
+.line-icone {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.recherche {
+  border-radius: 10px;
+  margin-top: 30px;
+  height: 30px;
+}
+
+
+.yoo {
+  margin-left: 15px;
+}
+
+.color_texte {
+  color: #000000;
+  border-radius: 10px;
+}
+
+.icone {
+  margin-right: 15px;
+}
+
+.icon {
+  color: #000000;
+}
+
+.line-menu {
+  margin-right: 70px;
+  display: flex;
+  list-style-type: none;
+}
+
+.menu {
+  display: inline-flex;
+  margin-top: 45px;
+  padding: 0;
+}
+
+section article {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* HEADER */
+.mood, .h1_mobile {
+  position: absolute;
+  border: 10px solid #ffffff;
+}
+
+.mood {
+  top: 99px;
+  left: 279px;
+}
+
+.port {
+  position: absolute;
+  top: 649px;
+  left: 740px;
+}
+
+header {
+  height: 85%;
+}
+
+.h1_mobile {
+  display: none;
+}
+
+.car {
+  width: 100%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.position-image {
+  margin-left: 10px;
+}
+
+.diapo {
+  margin: 0 auto;
+  /* width: 100%;
+  height:100%; */
+  border: 1px solid #333;
+  background-image: url("../image/diap3.jpg");
+  background-size: cover;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  position: relative;
+  animation-name: diapo;
+  animation-timing-function: linear;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@-webkit-keyframes diapo {
+  10% {
+    background-image: url("../image/diapo0.jpg");
+  }
+}
+
+.doc {
+  flex: 1;
+  margin-right: 15px;
+  position: relative;
+}
+
+article img:hover {
+  filter: grayscale(1);
+}
+
+article img {
+  filter: grayscale(100);
+  transition: 3s ease;
+}
+.contaction {
+  color: white;
+}
+.btn_pub{
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  display: inline-block;
+  font-weight: 600;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  margin-left: 5%;
+  margin-top: 40%;
+
+}
+.doc .favorites {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+.contrast-txt {
+  color: #DE9151;
+}
+.btn_tendance{
+  width: 30%;
+  height: 60px;
+  float: left;
+  margin-top: 25px;
+}
+.position{
+  margin-left: 5%;
+}
+
+.shop {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btn .btn:hover {
+  color: white;
+}
+/* overlay */
+.product_image{
+  position: relative;
+
+}
+.overlay{
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.4s;
+}
+article:hover .overlay {
+opacity: 1;
+
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  align-items: center;
+  justify-content: center;
+}
+.overlay .font {
+  font-size: 3rem;
+  color: #ffffff;
+  transition: 0.4s
+}
+.overlay .font:hover{
+  color: red;
+}
+/*fin*/
+.macaron {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  font-size: 75%;
+  background-color: #86A4D5;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* width: 100%; */
+  position: absolute;
+  /* height: 100%; */
+}
+
+
+.pub-photo {
+  background: url('../image/pub11.jpg');
+  width: 50%;
+  margin: 0px;
+  height: 618px;
+  padding: 50px 0;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+.lols {
+  background: url('../image/ok.jpg');
+  width: 65%;
+  margin: 10px;
+  height: 618px;
+  padding: 50px 0;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+.lolss {
+  background: url('../image/pub2.jpg');
+  width: 100%;
+  margin: 10px;
+  height: 818px;
+  padding: 50px 0;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+.prom{
+  border: 20px Solid white;
+  width: 400px;
+  height: 200px;
+  margin-left: 50%;
+  margin-top: 20%;
+}
+.h1{
+  text-align: center;
+}
+
+.btn {
+  background-color: #575654;
+  border-radius: 5px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  display: inline-block;
+  font-weight: 600;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.single-product-content {
+  padding: 15px;
+}
+
+.single-product-price {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.product-footer .btn {
+  width: 100%;
+  display: block;
+  border-radius: 0;
+  text-align: center;
+  background-color: #000000;
+}
+
+.achat {
+  color: #ffffff;
+}
+
+.footer-icones {
+  display: flex;
+}
+
+.icone-col {
+  margin-left: 25px;
+}
+
+.texte-footer {
+  display: flex;
+}
+
+.text-footer {
+  margin-left: 15px;
+}
+.color_icone{
+  color: #ffffff;
+  width: 40px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.pagefooter {
+  background-color: #000000;
+}

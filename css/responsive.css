@@ -1,0 +1,104 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+
+.container{
+  padding-left:15px;
+  padding-right:15px;
+  width:100%;
+}
+/* NAVIGATION  */
+.menu_burger{
+  display: block;
+}
+.menu{
+  display: none;
+}
+.recherche{
+  display:none;
+}
+.research{
+  display:block;
+}
+.logo{
+  margin-top: 0;
+}
+
+.line-icone{
+  margin-top:0px;
+  padding: 0;
+  margin: 0;
+}
+/* HEADER */
+.h1_mobile{
+  display: block;
+  color: white;
+  border: 0px solid #ffffff;
+}
+.diapo{
+  margin-top: 90px;
+}
+ .mood, .port{
+   display: none;
+ }
+.car{
+  width:100%;
+
+}
+header{
+  height:42%;
+}
+
+/* SHOP */
+.single-product-content{
+  padding: 0;
+}
+.doc{
+  margin-right: 0;
+}
+.shop{
+  display: block;
+}
+.pub-photo{
+  height:0;
+  padding: 80px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.lolss{
+  width: none;
+  height: auto;
+  background-size: cover;
+  margin-top: auto;
+  margin-left: auto;
+}
+.prom{
+  margin-left: 60%;
+  height: 200px;
+  border: 0px;
+  width: auto;
+
+}
+.h1{
+  text-align: left;
+}
+.btn_pub{
+  margin-top: auto;
+  padding: 0px;
+  margin-left: auto;
+
+}
+.lols{
+  width:100%;
+  height:100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.texte-footer{
+  display: block;
+}
+}
